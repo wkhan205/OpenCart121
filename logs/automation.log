@@ -1,0 +1,3 @@
+17:25:10.342 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistrationTest - *** Finished TC001_AccountRegistrationTest ***
+17:25:10.822 [TestNG-tests-3] INFO  testCases.TC001_AccountRegistrationTest - Validating expected message...
+17:25:10.843 [TestNG-tests-3] INFO  testCases.TC001_AccountRegistrationTest - *** Finished TC001_AccountRegistrationTest ***
