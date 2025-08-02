@@ -34,7 +34,7 @@ public class TC002_LoginTest extends BaseClass
 
 		logger.info("Validating expected message...");
 		String confmsg_login = lp.getConfirmationMsg_Login();
-		if(confmsg_login.equals("My Account!"))
+		if(confmsg_login.equals("My Account"))
 		{
 			Assert.assertTrue(true);
 		}
