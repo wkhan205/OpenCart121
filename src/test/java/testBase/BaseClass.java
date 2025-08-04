@@ -18,6 +18,7 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 
 public class BaseClass {
@@ -28,7 +29,7 @@ public Properties p;
 
 	@BeforeClass
 	@Parameters({"os","browser"})
-	public void setup(String os, String br) throws IOException
+	public void setup(@Optional("windows") String os, @Optional("chrome") String br) throws IOException
 	{
 		//Loading config.properties file
 		FileReader file=new FileReader("./src//test//resources//config.properties");
